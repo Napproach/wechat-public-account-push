@@ -46,7 +46,7 @@ export const config = {
     {
       name: "小汪", 
       id: "ozRMU5xpvSaLw07Qlal4TZkPFM8Q",
-      useTemplateId: "I-yU0j4cqjVrqKU7cf806LfT3WEkxqXJkHBHuHn6NWw",
+      useTemplateId: "FhYssQzGM4sWSb4T5Wheiw3ZXvSl5sk_uUWF4B64hYA",
       province: "江苏",
       city: "南京",
       openUrl: "https://wangxinleo.cn"
