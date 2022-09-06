@@ -33,7 +33,7 @@ export const config = {
       // 想要发送的人的名字
       name: "慧慧",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ozRMU5xpvSaLw07Qlal4TZkPFM8Q",
+      id: "ozRMU562zYigMmDOrQPHnn9YvAT8",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "I-yU0j4cqjVrqKU7cf806LfT3WEkxqXJkHBHuHn6NWw",
       // 所在省份
@@ -44,11 +44,11 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆1", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "小汪", 
+      id: "ozRMU5xpvSaLw07Qlal4TZkPFM8Q",
+      useTemplateId: "I-yU0j4cqjVrqKU7cf806LfT3WEkxqXJkHBHuHn6NWw",
+      province: "江苏",
+      city: "南京",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
@@ -117,7 +117,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -135,7 +135,6 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
